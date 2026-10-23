@@ -298,7 +298,7 @@ Este proceso se repite hasta que se hayan respondido todas las preguntas.
 Cuando termina el bucle principal, el programa muestra el resultado obtenido.
 
 ```python
-print(f"Has conseguido {puntuacion} de {len(preguntas)} puntos.")
+print("La puntuación total es de: ", puntuacion,"/",len(preguntas))
 ```
 
 Esta instrucción muestra:
